@@ -156,3 +156,4 @@
 /Users/colemansandy/Desktop/BYU/JuniorCore/413/Mission6/Mission6/obj/Debug/net8.0/Mission6.pdb
 /Users/colemansandy/Desktop/BYU/JuniorCore/413/Mission6/Mission6/obj/Debug/net8.0/Mission6.genruntimeconfig.cache
 /Users/colemansandy/Desktop/BYU/JuniorCore/413/Mission6/Mission6/obj/Debug/net8.0/ref/Mission6.dll
+/Users/colemansandy/Desktop/BYU/JuniorCore/413/Mission6/Mission6/obj/Debug/net8.0/Mission6.sourcelink.json

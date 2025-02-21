@@ -8,5 +8,6 @@ namespace Mission6.Models
             : base(options) { }
 
         public DbSet<Movie> Movies { get; set; } // Table name in SQLite
+        public DbSet<Category> Categories { get; set; }
     }
 }
