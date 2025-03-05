@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using Mission6.Models;
+using IActionResult = Microsoft.AspNetCore.Mvc.IActionResult;
 
 namespace Mission6.Controllers;
 
@@ -26,11 +27,11 @@ public class HomeController : Controller
     public IActionResult Movie()
     {
         ViewBag.Category = _context.Categories.ToList();
-        return View("Movie");
+        return View(new Movie());
     }
     
     [HttpPost]
-    public IActionResult SaveMovie(Movie movie)
+    public IActionResult Movie(Movie movie)
     {
         _context.Movies.Add(movie); //Add Data
         _context.SaveChanges();
